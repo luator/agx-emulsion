@@ -411,4 +411,5 @@ def main():
 
 
 if __name__ == "__main__":
+    raise RuntimeError("TEST")
     main()
