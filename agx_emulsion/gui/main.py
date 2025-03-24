@@ -301,6 +301,7 @@ def simulation(input_layer:Image,
     return scan
 
 def main():
+    raise RuntimeError("TEST")
     # add our new magicgui widget to the viewer
     simulation.exposure_compensation_ev.min = -100
     simulation.exposure_compensation_ev.max = 100
@@ -411,5 +412,4 @@ def main():
 
 
 if __name__ == "__main__":
-    raise RuntimeError("TEST")
     main()
